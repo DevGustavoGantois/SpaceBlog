@@ -1,0 +1,171 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-poppins: 'Poppins', sans-serif;
+  --font-Audiowide: 'Audiowide', sans-serif;
+}
+
+body {
+  font-family: var(--font-poppins);
+}
+
+
+h1, h2, h3 {
+  font-family: var(--font-audiowide);
+}
+
+
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: #000;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #9B0FEC; 
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  @keyframes slideCarousel {
+
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+
+@keyframes float {
+    0% {
+        transform: translateY(0); 
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0); 
+    }
+}
+
+.bg-default{
+    background: linear-gradient(to right, #6A5ACD, #000000)
+}
+
+.text-gradient-CTA {
+  background: linear-gradient(to right, #56379F, #4D00FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-white-gray {
+  background: linear-gradient(to right, #FFFFFF, #999999);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title_section_gradient {
+  background: linear-gradient(to right, #FFFFFF, #9B0FEC);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.black_linear {
+  background: linear-gradient(to right, #000000, #171717);
+}
+
+.carousel {
+    overflow: hidden;
+    padding: 30px 0;
+    white-space: nowrap;
+    margin-top: 8rem;
+}
+
+.carousel::after, .carousel::before {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+}
+
+
+
+.carousel-slide {
+    animation: 35s slideCarousel infinite linear;
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+}
+
+.carousel-slide p {
+    margin: 0 40px;
+    font-size: 20px;
+}
+
+.neon-border {
+  @apply relative rounded-2xl p-[60px] py-[70px] lg:p-24 border border-transparent;
+  position: relative;
+  z-index: 1;
+}
+
+.neon-border::before {
+  content: '';
+  @apply absolute inset-0 rounded-2xl;
+  padding: 2px; /* ajuste o valor para aumentar ou diminuir a espessura da borda */
+  background: linear-gradient(90deg, #9B0FEC, #FFFFFF, #4D00FF, #9B0FEC); /* gradiente neon */
+  background-size: 200% 200%;
+  animation: neon-border-running 3s linear infinite; /* animação da borda */
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+  z-index: -1;
+}
+}
+
+@keyframes neon-border-running {
+0% {
+  background-position: 0% 50%;
+}
+100% {
+  background-position: 200% 50%;
+}
+}
+
+
+  
+  .h1 {
+    @apply text-[40px] leading-[40px] lg:text-[60px] lg:leading-[62px] font-bold;
+  }
+
+  .h2 {
+    @apply text-[32px] leading-[40px] lg:text-[50px] lg:leading-[50px] font-bold;
+  }
+
+  .h3 {
+    @apply text-[38px] leading-[46px];
+  }
+
+  .h4 {
+    @apply text-[35px] leading-[46px];
+  }
+
+  .h5 {
+    @apply text-[24px] leading-[32px] font-bold;
+  }
+
+  .h6 {
+    @apply text-[18px] leading-[28px] font-bold;
+  }
