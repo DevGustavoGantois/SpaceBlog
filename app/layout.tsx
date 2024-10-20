@@ -2,7 +2,6 @@ import { Audiowide, Poppins } from 'next/font/google';
 import "./globals.css";
 import { Footer } from "@/components/Sections/Footer";
 import { Header } from "@/components/Sections/Header";
-import { AdSense } from '@/Scripts/ScriptAds';
 
 const poppins = Poppins({
   weight: ['400', '700'], 
@@ -28,9 +27,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br" className={`${poppins.variable} ${audiowide.variable} antialiased bg-gradient-to-r from-[#000000] via-[#3A00CC] to-[#000000]`}>
-      <head>
-        <AdSense pId='' />
-      </head>
       <body className={`${poppins.variable}`}>
         <Header />
         {children}
@@ -39,3 +35,6 @@ export default function RootLayout({
     </html>
   );
 }
+
+
+
