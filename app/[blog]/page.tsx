@@ -19,7 +19,7 @@ export default function BlogId({params}: {params:{blog: string}}) {
     return (
         <section className="max-w-[1440px] mx-auto text-white/80 text-center mb-20">
              <div className="mt-20">
-                <div className="bg-black">
+                <div className="mt-20">
                     <AdBanner dataAdFormat="auto" dataFullWidthResponsive={true} dataAdSlot="9163779460" />
                 </div>
                 <div className="mt-20">
@@ -32,7 +32,7 @@ export default function BlogId({params}: {params:{blog: string}}) {
                                 <p>{result?.description}</p>
                             </div>
                         </article>
-                        <div className="bg-violet-800 mt-20">
+                        <div className="mt-20">
                     <AdBanner dataAdFormat="auto" dataFullWidthResponsive={true} dataAdSlot="9163779460" />
                 </div>
             </div>
