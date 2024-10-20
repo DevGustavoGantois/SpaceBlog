@@ -32,7 +32,7 @@ export default function BlogId({params}: {params:{blog: string}}) {
                                 <p>{result?.description}</p>
                             </div>
                         </article>
-                        <div className="bg-black mt-20">
+                        <div className="bg-violet-800 mt-20">
                     <AdBanner dataAdFormat="auto" dataFullWidthResponsive={true} dataAdSlot="9163779460" />
                 </div>
             </div>
