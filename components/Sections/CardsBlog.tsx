@@ -1,60 +1,76 @@
 import Image from 'next/image'; 
 import { Button } from '../Button'; 
 
-const PagesBlog = [
+export const PagesBlog = [
     {
         id: "1",
-        page: "/blog-1",
+        page: "/buraco-negro",
         title: "Buraco Negro",
-        image: "/Void.png"
+        image: "/Void.png",
+        name: "buraco-negro"
     },
     {
         id: "2",
-        page: "/blog-2",
+        page: "/a-origem-do-universo",
         title: "A origem do Universo",
-        image: "/OriginUniverse.png"
+        image: "/OriginUniverse.png",
+        name: "a-origem-do-universo"
     },
     {
         id: "3",
-        page: "/blog-3",
+        page: "/as-primeiras-estrelas-galaxias",
         title: "As primeiras Estrelas | Galáxias",
-        image: "/SpaceArt.png"
+        image: "/SpaceArt.png",
+        name: "as-primeiras-estrelas-galaxias"
     },
     {
         id: "4",
-        page: "/blog-4",
+        page: "/materia-escura",
         title: "Matéria Escura",
-        image: "/BlackM.png"
+        image: "/BlackM.png",
+        name: "materia-escura"
     },
     {
         id: "5",
-        page: "/blog-6",
+        page: "/a-destino-final-do-universo",
         title: "A destino final do Universo",
-        image: "/ImgFive.png"
+        image: "/ImgFive.png",
+        name: "a-destino-final-do-universo"
     },
     {
         id: "6",
-        page: "/blog-7",
+        page: "/busca-por-vida-fora-da-terra",
         title: "Busca por vida fora da terra",
-        image: "/ImgSeven.png"
+        image: "/ImgSeven.png",
+        name: "busca-por-vida-fora-da-terra"
     },
     {
         id: "7",
-        page: "/blog-8",
+        page: "/a-expansao-do-universo",
         title: "A Expansão do Universo",
-        image: "/ExpansionUniverse.png"
+        image: "/ExpansionUniverse.png",
+        name: "a-expansao-do-universo"
     },
     {
         id: "8",
-        page: "/blog-9",
+        page: "/exploracao-espacial",
         title: "Exploração Espacial",
-        image: "/Exploration.png"
+        image: "/Exploration.png",
+        name: "exploracao-espacial"
     },
     {
         id: "9",
-        page: "/blog-10",
+        page: "/fatos-curiosos-sobre-a-via-lactea",
         title: "Fatos Curiosos Sobre a Via Lactea",
-        image: "/ViaLactea.png"
+        image: "/ViaLactea.png",
+        name: "fatos-curiosos-sobre-a-via-lactea"
+    },
+    {
+        id: "10",
+        page: "/a-origem-e-estrutura-do-universo",
+        title: "A Origem e a Estrutura do Universo",
+        image: "/OriginUniverse.png",
+        name: "a-origem-e-estrutura-do-universo",
     }
 ];
 
