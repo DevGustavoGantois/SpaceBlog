@@ -99,7 +99,7 @@ export const BlogData = [
         `
     },
     {
-        image: "/Void.png",
+        image: "/OriginUniverse.png",
         name: "a-origem-do-universo",
         pageName: "A Origem e a Estrutura do Universo",
         title: "Desvendando a Origem do Universo: O Big Bang e suas Consequências",
@@ -124,7 +124,7 @@ export const BlogData = [
         `
     },
     {
-        image: "/Void.png",
+        image: "/SpaceArt.png",
         name: "as-primeiras-estrelas-galaxias",
         pageName: "A Origem e a Estrutura do Universo",
         title: "A Formação das Primeiras Estrelas e Galáxias",
@@ -145,7 +145,7 @@ export const BlogData = [
         `
     },
     {
-        image: "/Void.png",
+        image: "/BlackM.png",
         name: "materia-escura",
         pageName: "Mistérios e Fenômenos Fascinantes do Universo",
         title: "Matéria Escura — A Substância Invisível do Universo",
@@ -166,7 +166,7 @@ export const BlogData = [
         `
     },
     {
-        image: "/Void.png",
+        image: "/ImgFive.png",
         name: "a-destino-final-do-universo",
         pageName: "O Futuro e as Grandes Questões do Universo",
         title: "O Futuro do Universo e a Busca por Vida Extraterrestre",
@@ -192,7 +192,7 @@ export const BlogData = [
         `
     },
     {
-        image: "/Void.png",
+        image: "/ImgSeven.png",
         name: "busca-por-vida-fora-da-terra",
         pageName: "O Futuro e as Grandes Questões do Universo",
         title: "A Busca por Vida Fora da Terra — Exoplanetas e Sinais Alienígenas",
@@ -214,7 +214,7 @@ export const BlogData = [
         `
     },
     {
-        image: "/Void.png",
+        image: "/ExpansionUniverse.png",
         name: "a-origem-e-estrutura-do-universo",
         pageName: "A Origem e a Estrutura do Universo",
         title: "A Expansão do Universo — Como sabemos que está acontecendo?",
@@ -236,7 +236,7 @@ export const BlogData = [
         `
       },
       {
-        image: "/Void.png",
+        image: "/Exploration.png",
         name: "exploracao-espacial",
         pageName: "Exploração Espacial",
         title: "Exploração Espacial as missões que modam o futuro",
@@ -249,7 +249,7 @@ export const BlogData = [
         `
       },
       {
-        image: "/Void.png",
+        image: "/ViaLactea.png",
         name: "fatos-curiosos-sobre-a-via-lactea",
         pageName: "Via Láctea",
         title: "Fatos Surpreendentes sobre a Via Láctea que Você Não Sabia",
