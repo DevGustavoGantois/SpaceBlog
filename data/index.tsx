@@ -23,6 +23,7 @@ export interface FooterPropsData {
     description: string;
     navigation: FooterLink[]; 
     socialLinks: FooterLink[]; 
+    hrefs?: string[];
 }
 
 
@@ -64,7 +65,7 @@ export const ContactSectionData = [
 export const FooterSectionData: FooterPropsData = {
     description: "Acompanhe nossas últimas postagens e fique sempre por dentro das novidades! Estamos aqui para trazer conteúdo relevante e inspirador. Tem uma ideia ou dúvida? Fale conosco e ajude-nos a criar um espaço ainda mais conectado com você.",
     navigation: [
-        { title: "Navegação", navLinks: ["Home", "Sobre", "Blogs", "Contato"] },
+        { title: "Navegação", navLinks: ["Home", "Sobre", "Blogs", "Contato"]},
     ],
     socialLinks: [
         { title: "Siga-nos", navLinks: ["LinkedIn: Gustavo Caria", "Instagram - @devgustavogantois_"] },

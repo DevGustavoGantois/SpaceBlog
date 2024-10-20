@@ -44,13 +44,7 @@ export const PagesBlog = [
         image: "/ImgSeven.png",
         name: "busca-por-vida-fora-da-terra"
     },
-    {
-        id: "7",
-        page: "/a-expansao-do-universo",
-        title: "A Expansão do Universo",
-        image: "/ExpansionUniverse.png",
-        name: "a-expansao-do-universo"
-    },
+   
     {
         id: "8",
         page: "/exploracao-espacial",
@@ -69,7 +63,7 @@ export const PagesBlog = [
         id: "10",
         page: "/a-origem-e-estrutura-do-universo",
         title: "A Origem e a Estrutura do Universo",
-        image: "/OriginUniverse.png",
+        image: "/ExpansionUniverse.png",
         name: "a-origem-e-estrutura-do-universo",
     }
 ];
