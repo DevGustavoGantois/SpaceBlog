@@ -37,6 +37,7 @@ export default function RootLayout({
           crossOrigin="anonymous"
           strategy="afterInteractive"  
         />
+         <meta name="google-site-verification" content="M4Pw1J2X-V6c2FotMav2KX72M48-Zvp0Lhnc9Q4qOnI" />
       </head>
       <body className={`${poppins.variable}`}>
         <Header />
