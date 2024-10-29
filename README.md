@@ -1,4 +1,4 @@
-<a href="https://space-blog-mu.vercel.app/">Visualize o projeto</a>
+<a href="https://space-blog-mu.vercel.app/">Visualize o deploy deste projeto</a>
 
 <h1>Space Blog</h1>
 
